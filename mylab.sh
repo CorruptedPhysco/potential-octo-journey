@@ -10,9 +10,9 @@ gcloud services enable \
   pubsub.googleapis.com
 
 
-export HTTP_FUNCTION=
-export FUNCTION_NAME=
-export REGION=
+export HTTP_FUNCTION=http-responder
+export FUNCTION_NAME=cs-tracker
+export REGION=us-west1
 
 
 
