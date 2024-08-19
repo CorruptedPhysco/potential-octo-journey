@@ -1,4 +1,4 @@
-export ZONE=
+export ZONE=us-east4-c
 gcloud auth list
 
 export PROJECT_ID=$(gcloud config get-value project)
